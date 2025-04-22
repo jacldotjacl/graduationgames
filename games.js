@@ -62,5 +62,32 @@ const games = [
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/1v1lol.png?raw=true",
         url: "https://1v1lol.gitlab.io/1v1-lol-2/",
         category: "Shooter"
-    }
+    },
+    {
+        title: "Deeeep.io",
+        description: "Fish-Eat-Fish World",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/deepio.png?raw=true",
+        url: "https://deeeep.io/",
+        category: "Arcade"
+    },
+    {
+        title: "Agar.io Clone",
+        description: "Squishy ball grabs squishy ball!",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/agario.png?raw=true",
+        url: "https://kylehue.github.io/agario-clone/",
+        category: "Arcade"
+    },
+    {
+        title: "Slither.io",
+        description: "Slither into other snakes!",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/slitherio.png?raw=true",
+        url: "http://slither.com/io",
+        category: "Arcade"
+    },
+    {
+        title: "Smash Karts",
+        description: "Smash other people's karts.",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/smashkarts.png?raw=true",
+        url: "https://webgltest-17af1.firebaseapp.com/",
+        category: "Arcade"
 ];
