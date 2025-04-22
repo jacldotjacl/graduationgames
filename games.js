@@ -27,5 +27,12 @@ const games = [
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/slope.png?raw=true",
         url: "https://slopenexus.github.io/games/v1.2.5/index.html",
         category: "Action"
+    },
+    {
+        title: "Happy Wheels",
+        description: "Ragdoll Gore!",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/happywheels.png?raw=true",
+        url: "https://happy-wheels-online.github.io/file/",
+        category: "Physics"
     }
 ];
