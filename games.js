@@ -55,5 +55,12 @@ const games = [
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/run3.png?raw=true",
         url: "https://blobby-boi.github.io/Run-3/",
         category: "Platformer"
+    },
+    {
+        title: "1v1.lol",
+        description: "Fortnite in your browser!",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/1v1lol.png?raw=true",
+        url: "https://1v1lol.gitlab.io/1v1-lol-2/",
+        category: "Shooter"
     }
 ];
