@@ -280,4 +280,28 @@ footer {
     display: inline-block;
     font-weight: normal;
     text-align: center;
+}
+
+.random-button {
+    background-color: #b388ff;
+    color: #1a1025;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.random-button:hover {
+    background-color: #9c64ff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.random-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 } 
