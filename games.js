@@ -15,10 +15,10 @@ const games = [
         category: "Game"
     },
     {
-        title: "Tetris",
-        description: "The classic block-stacking game",
-        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/tetris.png?raw=true",
-        url: "https://tetris.com/play-tetris",
+        title: "Monkey Mart",
+        description: "Classic Monkey Money Game",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/monkeymart.png?raw=true",
+        url: "https://hushygames.github.io/games/monkeymart/game.html",
         category: "Classic"
     }
 ]; 
