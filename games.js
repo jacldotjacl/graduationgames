@@ -90,7 +90,7 @@ const games = [
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/smashkarts.png?raw=true",
         url: "https://webgltest-17af1.firebaseapp.com/",
         category: "Arcade"
-    {,
+    },
     {
         title: "Tunnel Rush",
         description: "Race through a tunnel dodging obstacles in this fast-paced game.",
