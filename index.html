@@ -31,7 +31,12 @@
 
     <div class="game-viewer" id="gameViewer">
         <button class="close-button" id="closeButton">×</button>
-        <iframe id="gameFrame" frameborder="0"></iframe>
+        <iframe 
+            id="gameFrame" 
+            frameborder="0"
+            allow="cross-origin-isolated"
+            sandbox="allow-scripts allow-same-origin allow-popups"
+        ></iframe>
     </div>
 
     <script src="games.js"></script>
