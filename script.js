@@ -10,7 +10,7 @@ const games = [
         title: "Snake",
         description: "Classic snake game",
         image: "https://via.placeholder.com/300x150?text=Snake",
-        url: "https://playsnake.org/"
+        url: "https://crazycattle-3d.com/"
     },
     {
         title: "Tetris",
