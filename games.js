@@ -93,7 +93,7 @@ const games = [
     },
     {
         title: "Tunnel Rush",
-        description: "Race through a tunnel dodging obstacles in this fast-paced game.",
+        description: "Dodge obstacles in tunnel.",
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/tunnelrush.png?raw=true",
         url: "https://physicsedu16.github.io/g5/class-404/",
         category: "Arcade"
