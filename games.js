@@ -34,5 +34,26 @@ const games = [
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/happywheels.png?raw=true",
         url: "https://happy-wheels-online.github.io/file/",
         category: "Physics"
+    },
+    {
+        title: "Run",
+        description: "Jump in space!",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/run1.png?raw=true",
+        url: "https://3kh0s.github.io/games/run/index.html",
+        category: "Platformer"
+    },
+    {
+        title: "Run 2",
+        description: "Jump in space better!",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/run2.png?raw=true",
+        url: "https://ubg89.github.io/Run2/",
+        category: "Platformer"
+    },
+    {
+        title: "Run 3",
+        description: "Jump in space 3x Better!",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/run3.png?raw=true",
+        url: "https://blobby-boi.github.io/Run-3/",
+        category: "Platformer"
     }
 ];
