@@ -39,15 +39,16 @@ function createGameCard(game) {
 function openGame(url) {
     const gameViewer = document.getElementById('gameViewer');
     const gameFrame = document.getElementById('gameFrame');
+    const loadingIndicator = document.querySelector('.loading-indicator');
     
     // Show loading indicator
     gameViewer.classList.add('active');
-    gameFrame.classList.remove('loaded');
+    loadingIndicator.style.display = 'flex';
     
     // Set the source and add load event listener
     gameFrame.src = url;
     gameFrame.onload = function() {
-        gameFrame.classList.add('loaded');
+        loadingIndicator.style.display = 'none';
     };
 }
 
