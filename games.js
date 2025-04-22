@@ -3,42 +3,42 @@ const games = [
     {
         title: "2048",
         description: "A popular sliding tile puzzle game",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/2048.png",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/2048.png?raw=true",
         url: "https://play2048.co/",
         category: "Puzzle"
     },
     {
         title: "Snake",
         description: "Classic snake game",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/snake.png",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/snake.png?raw=true",
         url: "https://playsnake.org/",
         category: "Classic"
     },
     {
         title: "Tetris",
         description: "The classic block-stacking game",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/tetris.png",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/tetris.png?raw=true",
         url: "https://tetris.com/play-tetris",
         category: "Classic"
     },
     {
         title: "Pac-Man",
         description: "Classic arcade game",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/pacman.png",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/pacman.png?raw=true",
         url: "https://www.pacman.com/",
         category: "Classic"
     },
     {
         title: "Minesweeper",
         description: "Classic puzzle game",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/minesweeper.png",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/minesweeper.png?raw=true",
         url: "https://minesweeper.online/",
         category: "Puzzle"
     },
     {
         title: "Chess",
         description: "Play chess online",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/chess.png",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/chess.png?raw=true",
         url: "https://www.chess.com/play/computer",
         category: "Strategy"
     }
