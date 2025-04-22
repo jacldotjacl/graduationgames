@@ -111,7 +111,7 @@ footer {
     align-items: center;
     z-index: 1000;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.5s ease;
 }
 
 .game-viewer.active {
@@ -125,12 +125,28 @@ footer {
     border: none;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    transform: scale(0.9);
-    transition: transform 0.3s ease;
+    transform: scale(0.8);
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .game-viewer.active iframe {
     transform: scale(1);
+    animation: bounceIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .close-button {
@@ -143,10 +159,18 @@ footer {
     font-size: 2rem;
     cursor: pointer;
     transition: transform 0.2s ease;
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.game-viewer.active .close-button {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.3s ease 0.2s, transform 0.3s ease 0.2s;
 }
 
 .close-button:hover {
-    transform: rotate(90deg);
+    transform: rotate(90deg) scale(1.1);
 }
 
 @media (max-width: 768px) {
