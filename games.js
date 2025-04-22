@@ -4,7 +4,7 @@ const games = [
         title: "Crazy Cattle 3D",
         description: "Tip over the other sheep!",
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/crazycattle3d.png?raw=true",
-        url: "https://unblockyunblocky.github.io/oopsyoufoundmegames/crazycattle/",
+        url: "https://crazy-cattle3d.org/game/crazycattle3d//",
         category: "Game"
     },
     {
