@@ -104,5 +104,12 @@ const games = [
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/towntopia.png?raw=true",
         url: "https://physicsedu16.github.io/g8/class-100/",
         category: "Simulation"
+    },
+    {
+        title: "Round Racers",
+        description: "Manage cars in circular tracks.",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/roundracers.png?raw=true",
+        url: "https://physicsedu16.github.io/g97/class-551/",
+        category: "Racing"
     }
 ];
