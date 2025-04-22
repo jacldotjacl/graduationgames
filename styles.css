@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Urbanist', sans-serif;
 }
 
 body {
     background-color: #1a1025;
     color: #e0e0e0;
     line-height: 1.6;
+    font-family: 'Urbanist', sans-serif;
 }
 
 header {
@@ -20,8 +21,10 @@ header {
 }
 
 h1 {
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     color: #b388ff;
+    font-weight: 700;
 }
 
 .filters-container {
@@ -278,7 +281,7 @@ footer {
     border-radius: 12px;
     margin: 0.2em auto;
     display: inline-block;
-    font-weight: normal;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -293,6 +296,7 @@ footer {
     font-weight: 600;
     transition: all 0.3s ease;
     white-space: nowrap;
+    font-family: 'Urbanist', sans-serif;
 }
 
 .random-button:hover {
