@@ -44,9 +44,17 @@ function openGame(url) {
 
 // Function to close game viewer
 function closeGameViewer() {
-    gameViewer.classList.remove('active');
-    gameFrame.src = '';
-    document.body.style.overflow = '';
+    const gameViewer = document.getElementById('gameViewer');
+    const gameFrame = document.getElementById('gameFrame');
+    
+    // Add closing class for reverse animation
+    gameViewer.classList.add('closing');
+    
+    // Wait for animation to complete before hiding
+    setTimeout(() => {
+        gameViewer.classList.remove('active', 'closing');
+        gameFrame.src = '';
+    }, 300); // Match this with the transition duration in CSS
 }
 
 // Event listeners
