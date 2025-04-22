@@ -27,5 +27,5 @@ const games = [
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/slope.png?raw=true",
         url: "https://gamedump.github.io/slope/",
         category: "Action"
-    {
-]; 
+    }
+];
