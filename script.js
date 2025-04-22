@@ -1,47 +1,19 @@
-// Sample game data
-const games = [
-    {
-        title: "2048",
-        description: "A popular sliding tile puzzle game",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/2048.png",
-        url: "https://play2048.co/"
-    },
-    {
-        title: "Snake",
-        description: "Classic snake game",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/snake.png",
-        url: "https://playsnake.org/"
-    },
-    {
-        title: "Tetris",
-        description: "The classic block-stacking game",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/tetris.png",
-        url: "https://tetris.com/play-tetris"
-    },
-    {
-        title: "Pac-Man",
-        description: "Classic arcade game",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/pacman.png",
-        url: "https://www.pacman.com/"
-    },
-    {
-        title: "Minesweeper",
-        description: "Classic puzzle game",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/minesweeper.png",
-        url: "https://minesweeper.online/"
-    },
-    {
-        title: "Chess",
-        description: "Play chess online",
-        image: "https://raw.githubusercontent.com/[YOUR_USERNAME]/unblockedGames/main/gameimages/chess.png",
-        url: "https://www.chess.com/play/computer"
-    }
-];
-
 // Get DOM elements
 const gameViewer = document.getElementById('gameViewer');
 const gameFrame = document.getElementById('gameFrame');
 const closeButton = document.getElementById('closeButton');
+const categoryFilter = document.getElementById('categoryFilter');
+
+// Get unique categories from games
+const categories = [...new Set(games.map(game => game.category))];
+
+// Populate category dropdown
+categories.forEach(category => {
+    const option = document.createElement('option');
+    option.value = category;
+    option.textContent = category;
+    categoryFilter.appendChild(option);
+});
 
 // Function to create game cards
 function createGameCard(game) {
@@ -52,6 +24,7 @@ function createGameCard(game) {
         <div class="game-info">
             <h3>${game.title}</h3>
             <p>${game.description}</p>
+            <span class="game-category">${game.category}</span>
         </div>
     `;
     
@@ -86,6 +59,21 @@ gameViewer.addEventListener('click', (e) => {
     }
 });
 
+// Function to filter games
+function filterGames() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const selectedCategory = categoryFilter.value;
+    
+    const filteredGames = games.filter(game => {
+        const matchesSearch = game.title.toLowerCase().includes(searchTerm) ||
+                            game.description.toLowerCase().includes(searchTerm);
+        const matchesCategory = selectedCategory === 'all' || game.category === selectedCategory;
+        return matchesSearch && matchesCategory;
+    });
+    
+    displayGames(filteredGames);
+}
+
 // Function to display games
 function displayGames(gamesToShow = games) {
     const container = document.getElementById('gamesContainer');
@@ -96,16 +84,9 @@ function displayGames(gamesToShow = games) {
     });
 }
 
-// Search functionality
-const searchInput = document.getElementById('searchInput');
-searchInput.addEventListener('input', (e) => {
-    const searchTerm = e.target.value.toLowerCase();
-    const filteredGames = games.filter(game => 
-        game.title.toLowerCase().includes(searchTerm) ||
-        game.description.toLowerCase().includes(searchTerm)
-    );
-    displayGames(filteredGames);
-});
+// Event listeners for filtering
+searchInput.addEventListener('input', filterGames);
+categoryFilter.addEventListener('change', filterGames);
 
 // Initial display of games
 displayGames(); 
