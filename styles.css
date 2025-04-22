@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #1a1025;
     color: #e0e0e0;
     line-height: 1.6;
 }
 
 header {
-    background-color: #1e1e1e;
+    background-color: #2a1a3a;
     color: #e0e0e0;
     padding: 1rem;
     text-align: center;
@@ -21,6 +21,7 @@ header {
 
 h1 {
     margin-bottom: 1rem;
+    color: #b388ff;
 }
 
 .filters-container {
@@ -48,7 +49,7 @@ h1 {
     border: none;
     border-radius: 4px;
     font-size: 1rem;
-    background-color: #2d2d2d;
+    background-color: #2a1a3a;
     color: #e0e0e0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -58,12 +59,12 @@ h1 {
     padding: 0.8rem;
     border: none;
     border-radius: 4px;
-    background-color: #2d2d2d;
+    background-color: #2a1a3a;
     color: #e0e0e0;
     font-size: 1rem;
     cursor: pointer;
     appearance: none;
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e0e0e0'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23b388ff'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-position: right 0.8rem center;
     background-size: 1.5em;
@@ -71,12 +72,12 @@ h1 {
 }
 
 #categoryFilter:hover {
-    background-color: #3d3d3d;
+    background-color: #3a2a4a;
 }
 
 #categoryFilter:focus {
     outline: none;
-    box-shadow: 0 0 0 2px #1a73e8;
+    box-shadow: 0 0 0 2px #b388ff;
 }
 
 main {
@@ -93,20 +94,20 @@ main {
 }
 
 .game-card {
-    background: #1e1e1e;
+    background: #2a1a3a;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
     cursor: pointer;
-    border: 1px solid #333;
+    border: 1px solid #3a2a4a;
     position: relative;
 }
 
 .game-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    border-color: #1a73e8;
+    border-color: #b388ff;
 }
 
 .game-card img {
@@ -121,7 +122,7 @@ main {
 
 .game-info h3 {
     margin-bottom: 0.5rem;
-    color: #1a73e8;
+    color: #b388ff;
 }
 
 .game-info p {
@@ -146,7 +147,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(26, 16, 37, 0.95);
     display: none;
     justify-content: center;
     align-items: center;
@@ -216,7 +217,7 @@ footer {
     right: 20px;
     background: none;
     border: none;
-    color: #e0e0e0;
+    color: #b388ff;
     font-size: 2rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -231,7 +232,7 @@ footer {
 }
 
 .close-button:hover {
-    transform: rotate(90deg) scale(1.1);
+    color: #e0e0e0;
 }
 
 @media (max-width: 768px) {
@@ -249,8 +250,8 @@ footer {
 .game-category {
     display: inline-block;
     padding: 0.2rem 0.6rem;
-    background-color: #1a73e8;
-    color: white;
+    background-color: #3a2a4a;
+    color: #b388ff;
     border-radius: 12px;
     font-size: 0.8rem;
     margin-top: 0.5rem;
