@@ -26,17 +26,20 @@ h1 {
 .filters-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
+    margin: 1rem auto;
     max-width: 800px;
-    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .search-container {
-    flex: 2;
+    flex: 1;
+    max-width: 400px;
 }
 
 .category-container {
-    flex: 1;
+    flex: 0 0 auto;
 }
 
 #searchInput {
@@ -51,20 +54,20 @@ h1 {
 }
 
 #categoryFilter {
-    width: 100%;
+    width: 200px;
     padding: 0.8rem;
     border: none;
     border-radius: 4px;
-    font-size: 1rem;
     background-color: #2d2d2d;
     color: #e0e0e0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
     cursor: pointer;
     appearance: none;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e0e0e0'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-position: right 0.8rem center;
     background-size: 1.5em;
+    transition: all 0.3s ease;
 }
 
 #categoryFilter:hover {
