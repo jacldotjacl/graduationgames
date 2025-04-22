@@ -38,6 +38,11 @@ const games = [
     }
 ];
 
+// Get DOM elements
+const gameViewer = document.getElementById('gameViewer');
+const gameFrame = document.getElementById('gameFrame');
+const closeButton = document.getElementById('closeButton');
+
 // Function to create game cards
 function createGameCard(game) {
     const card = document.createElement('div');
@@ -51,11 +56,35 @@ function createGameCard(game) {
     `;
     
     card.addEventListener('click', () => {
-        window.open(game.url, '_blank');
+        openGame(game.url);
     });
     
     return card;
 }
+
+// Function to open game in viewer
+function openGame(url) {
+    gameFrame.src = url;
+    gameViewer.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+// Function to close game viewer
+function closeGameViewer() {
+    gameViewer.classList.remove('active');
+    gameFrame.src = '';
+    document.body.style.overflow = '';
+}
+
+// Event listeners
+closeButton.addEventListener('click', closeGameViewer);
+
+// Close viewer when clicking outside the iframe
+gameViewer.addEventListener('click', (e) => {
+    if (e.target === gameViewer) {
+        closeGameViewer();
+    }
+});
 
 // Function to display games
 function displayGames(gamesToShow = games) {
