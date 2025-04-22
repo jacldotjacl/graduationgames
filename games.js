@@ -28,4 +28,4 @@ const games = [
         url: "https://gamedump.github.io/slope/",
         category: "Action"
     {
-    ]; 
+]; 
