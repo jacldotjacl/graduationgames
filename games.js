@@ -90,4 +90,5 @@ const games = [
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/smashkarts.png?raw=true",
         url: "https://webgltest-17af1.firebaseapp.com/",
         category: "Arcade"
+    }
 ];
