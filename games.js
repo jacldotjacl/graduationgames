@@ -20,26 +20,5 @@ const games = [
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/tetris.png?raw=true",
         url: "https://tetris.com/play-tetris",
         category: "Classic"
-    },
-    {
-        title: "Pac-Man",
-        description: "Classic arcade game",
-        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/pacman.png?raw=true",
-        url: "https://www.pacman.com/",
-        category: "Classic"
-    },
-    {
-        title: "Minesweeper",
-        description: "Classic puzzle game",
-        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/minesweeper.png?raw=true",
-        url: "https://minesweeper.online/",
-        category: "Puzzle"
-    },
-    {
-        title: "Chess",
-        description: "Play chess online",
-        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/chess.png?raw=true",
-        url: "https://www.chess.com/play/computer",
-        category: "Strategy"
     }
 ]; 
