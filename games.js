@@ -93,9 +93,16 @@ const games = [
     },
     {
         title: "Tunnel Rush",
-        description: "Dodge obstacles in tunnel.",
+        description: "Dodge obstacles in a tunnel.",
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/tunnelrush.png?raw=true",
         url: "https://physicsedu16.github.io/g5/class-404/",
         category: "Arcade"
+    },
+    {
+        title: "Towntopia",
+        description: "Build your dream town fast.",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/towntopia.png?raw=true",
+        url: "https://physicsedu16.github.io/g8/class-100/",
+        category: "Simulation"
     }
 ];
