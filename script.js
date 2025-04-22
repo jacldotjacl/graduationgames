@@ -97,6 +97,10 @@ function displayGames(gamesToShow = games) {
     const container = document.getElementById('gamesContainer');
     container.innerHTML = '';
     
+    // Update game counter
+    const counter = document.querySelector('.game-counter');
+    counter.textContent = `${gamesToShow.length} games`;
+    
     gamesToShow.forEach(game => {
         container.appendChild(createGameCard(game));
     });
