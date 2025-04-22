@@ -14,7 +14,7 @@ body {
 header {
     background-color: #2a1a3a;
     color: #e0e0e0;
-    padding: 1rem;
+    padding: 0.8rem;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -274,9 +274,9 @@ footer {
     font-size: 0.9em;
     background-color: #b388ff;
     color: #1a1025;
-    padding: 0.3em 0.8em;
+    padding: 0.2em 0.6em;
     border-radius: 12px;
-    margin: 0.5em auto;
+    margin: 0.2em auto;
     display: inline-block;
     font-weight: normal;
     text-align: center;
