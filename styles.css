@@ -268,4 +268,15 @@ footer {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.game-counter {
+    font-size: 0.8em;
+    background-color: #b388ff;
+    color: #1a1025;
+    padding: 0.2em 0.6em;
+    border-radius: 12px;
+    margin-left: 0.5em;
+    vertical-align: middle;
+    font-weight: normal;
 } 
