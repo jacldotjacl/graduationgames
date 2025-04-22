@@ -42,17 +42,13 @@ function openGame(url) {
     
     // Show loading indicator
     gameViewer.classList.add('active');
-    
-    // Reset iframe and add load event listener
-    gameFrame.src = '';
     gameFrame.classList.remove('loaded');
     
+    // Set the source and add load event listener
+    gameFrame.src = url;
     gameFrame.onload = function() {
         gameFrame.classList.add('loaded');
     };
-    
-    // Set the source after adding the load event listener
-    gameFrame.src = url;
 }
 
 // Function to close game viewer
