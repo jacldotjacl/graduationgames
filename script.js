@@ -3,6 +3,8 @@ const gameViewer = document.getElementById('gameViewer');
 const gameFrame = document.getElementById('gameFrame');
 const closeButton = document.getElementById('closeButton');
 const categoryFilter = document.getElementById('categoryFilter');
+const searchInput = document.getElementById('searchInput');
+const randomGameButton = document.getElementById('randomGame');
 
 // Get unique categories from games
 const categories = [...new Set(games.map(game => game.category))];
@@ -109,6 +111,30 @@ function displayGames(gamesToShow = games) {
 // Event listeners for filtering
 searchInput.addEventListener('input', filterGames);
 categoryFilter.addEventListener('change', filterGames);
+
+// Function to get a random game
+function getRandomGame() {
+    const filteredGames = games.filter(game => {
+        const matchesSearch = game.title.toLowerCase().includes(searchInput.value.toLowerCase()) ||
+                            game.description.toLowerCase().includes(searchInput.value.toLowerCase());
+        const matchesCategory = categoryFilter.value === 'all' || game.category === categoryFilter.value;
+        return matchesSearch && matchesCategory;
+    });
+    
+    if (filteredGames.length > 0) {
+        const randomIndex = Math.floor(Math.random() * filteredGames.length);
+        return filteredGames[randomIndex];
+    }
+    return null;
+}
+
+// Add event listener for random game button
+randomGameButton.addEventListener('click', () => {
+    const randomGame = getRandomGame();
+    if (randomGame) {
+        openGame(randomGame.url);
+    }
+});
 
 // Initial display of games
 displayGames(); 
