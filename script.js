@@ -37,9 +37,22 @@ function createGameCard(game) {
 
 // Function to open game in viewer
 function openGame(url) {
-    gameFrame.src = url;
+    const gameViewer = document.getElementById('gameViewer');
+    const gameFrame = document.getElementById('gameFrame');
+    
+    // Show loading indicator
     gameViewer.classList.add('active');
-    document.body.style.overflow = 'hidden';
+    
+    // Reset iframe and add load event listener
+    gameFrame.src = '';
+    gameFrame.classList.remove('loaded');
+    
+    gameFrame.onload = function() {
+        gameFrame.classList.add('loaded');
+    };
+    
+    // Set the source after adding the load event listener
+    gameFrame.src = url;
 }
 
 // Function to close game viewer
