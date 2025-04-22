@@ -25,7 +25,7 @@ const games = [
         title: "Slope",
         description: "Slide down a hill!",
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/slope.png?raw=true",
-        url: "https://slopenexus.github.io/games/v1.2.5/index.html/",
+        url: "https://slopenexus.github.io/games/v1.2.5/index.html",
         category: "Action"
     }
 ];
