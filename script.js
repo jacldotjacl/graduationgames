@@ -137,4 +137,47 @@ randomGameButton.addEventListener('click', () => {
 });
 
 // Initial display of games
-displayGames(); 
+displayGames();
+
+// Hamburger Menu Functionality
+const hamburgerButton = document.getElementById('hamburgerButton');
+const flyoutPanel = document.getElementById('flyoutPanel');
+const closeFlyout = document.getElementById('closeFlyout');
+const linksContainer = document.getElementById('linksContainer');
+
+// Toggle flyout panel
+hamburgerButton.addEventListener('click', () => {
+    flyoutPanel.classList.add('active');
+});
+
+closeFlyout.addEventListener('click', () => {
+    flyoutPanel.classList.remove('active');
+});
+
+// Close flyout when clicking outside
+document.addEventListener('click', (e) => {
+    if (!flyoutPanel.contains(e.target) && !hamburgerButton.contains(e.target)) {
+        flyoutPanel.classList.remove('active');
+    }
+});
+
+// Display links in flyout panel
+function displayLinks() {
+    linksContainer.innerHTML = '';
+    otherLinks.forEach(link => {
+        const linkCard = document.createElement('div');
+        linkCard.className = 'link-card';
+        linkCard.innerHTML = `
+            <img src="${link.image}" alt="${link.title}">
+            <h3>${link.title}</h3>
+            <p>${link.description}</p>
+        `;
+        linkCard.addEventListener('click', () => {
+            window.open(link.url, '_blank');
+        });
+        linksContainer.appendChild(linkCard);
+    });
+}
+
+// Initialize links display
+displayLinks(); 
