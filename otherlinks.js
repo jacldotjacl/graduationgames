@@ -6,10 +6,10 @@ const otherLinks = [
         url: "https://chatgpt.com"
     },
     {
-        title: "Class Schedule",
-        description: "View your class schedule and important dates",
-        image: "https://example.com/schedule.jpg",
-        url: "https://example.com/schedule"
+        title: "Doge Proxy",
+        description: "Unblock Sites!",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/doge.png?raw=true",
+        url: "v4fork-beta.vercel.app"
     },
     {
         title: "Campus Map",
