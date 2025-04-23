@@ -251,5 +251,12 @@ const games = [
     image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/cactus2.png?raw=true",
     url: "https://papasgamesx.github.io/flipline/cactus-mccoy-2/",
     category: "Adventure"
+  },
+  {
+    title: "Rocket Soccer Derby",
+    description: "Web Rocket League!",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/cactus2.png?raw=true",
+    url: "https://rocket-soccer-derby.github.io/file/",
+    category: "Adventure"
   }
 ];
