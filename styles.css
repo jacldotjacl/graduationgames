@@ -317,6 +317,9 @@ footer {
     left: 20px;
     z-index: 1000;
     transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .hamburger-button {
@@ -338,6 +341,17 @@ footer {
 
 .hamburger-button:hover span {
     background-color: #9c64ff;
+}
+
+.tools-text {
+    color: #b388ff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+}
+
+.flyout-panel.active ~ .hamburger-menu .tools-text {
+    opacity: 0;
 }
 
 /* Flyout Panel Styles */
