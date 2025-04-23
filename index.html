@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="hamburger-menu">
+        <button class="hamburger-button" id="hamburgerButton">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <div class="flyout-panel" id="flyoutPanel">
+        <div class="flyout-content">
+            <div class="flyout-header">
+                <h2>Quick Links</h2>
+                <button class="close-flyout" id="closeFlyout">×</button>
+            </div>
+            <div class="links-container" id="linksContainer">
+                <!-- Links will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
     <header>
         <h1>Graduation Games 🐻</h1>
         <div class="game-counter"></div>
@@ -47,6 +67,7 @@
     </div>
 
     <script src="games.js"></script>
+    <script src="otherlinks.js"></script>
     <script src="script.js"></script>
 </body>
 </html> 
