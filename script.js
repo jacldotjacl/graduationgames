@@ -180,4 +180,83 @@ function displayLinks() {
 }
 
 // Initialize links display
-displayLinks(); 
+displayLinks();
+
+// Recently Played Games Functionality
+const recentlyPlayedButton = document.getElementById('recentlyPlayedButton');
+const recentlyPlayedPanel = document.getElementById('recentlyPlayedPanel');
+const closeRecent = document.getElementById('closeRecent');
+const recentGamesContainer = document.getElementById('recentGamesContainer');
+
+// Load recently played games from localStorage
+let recentlyPlayed = JSON.parse(localStorage.getItem('recentlyPlayed')) || [];
+
+// Toggle recently played panel
+recentlyPlayedButton.addEventListener('click', () => {
+    recentlyPlayedPanel.classList.add('active');
+});
+
+closeRecent.addEventListener('click', () => {
+    recentlyPlayedPanel.classList.remove('active');
+});
+
+// Close panel when clicking outside
+document.addEventListener('click', (e) => {
+    if (!recentlyPlayedPanel.contains(e.target) && !recentlyPlayedButton.contains(e.target)) {
+        recentlyPlayedPanel.classList.remove('active');
+    }
+});
+
+// Add game to recently played
+function addToRecentlyPlayed(game) {
+    // Remove game if it already exists
+    recentlyPlayed = recentlyPlayed.filter(g => g.title !== game.title);
+    
+    // Add game to the beginning of the array
+    recentlyPlayed.unshift(game);
+    
+    // Limit to 20 games
+    if (recentlyPlayed.length > 20) {
+        recentlyPlayed.pop();
+    }
+    
+    // Save to localStorage
+    localStorage.setItem('recentlyPlayed', JSON.stringify(recentlyPlayed));
+    
+    // Update display
+    displayRecentlyPlayed();
+}
+
+// Display recently played games
+function displayRecentlyPlayed() {
+    recentGamesContainer.innerHTML = '';
+    recentlyPlayed.forEach(game => {
+        const gameCard = document.createElement('div');
+        gameCard.className = 'recent-game-card';
+        gameCard.innerHTML = `
+            <img src="${game.image}" alt="${game.title}">
+            <div class="recent-game-info">
+                <h3>${game.title}</h3>
+                <p>${game.description}</p>
+            </div>
+        `;
+        gameCard.addEventListener('click', () => {
+            openGame(game.url);
+            recentlyPlayedPanel.classList.remove('active');
+        });
+        recentGamesContainer.appendChild(gameCard);
+    });
+}
+
+// Update the openGame function to include recently played
+const originalOpenGame = openGame;
+openGame = function(url) {
+    originalOpenGame(url);
+    const game = games.find(g => g.url === url);
+    if (game) {
+        addToRecentlyPlayed(game);
+    }
+};
+
+// Initialize display
+displayRecentlyPlayed(); 
