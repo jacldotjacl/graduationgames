@@ -12,15 +12,15 @@ const otherLinks = [
         url: "v4fork-beta.vercel.app"
     },
     {
-        title: "Campus Map",
-        description: "Interactive map of the campus and facilities",
-        image: "https://example.com/campus-map.jpg",
-        url: "https://example.com/campus-map"
+        title: "Suggest Games!",
+        description: "Suggest games for the site!",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/forms.png?raw=true",
+        url: "https://forms.gle/KxAEj8d7k79Daifz8"
     },
     {
-        title: "Student Resources",
-        description: "Access to student services and support",
-        image: "https://example.com/resources.jpg",
-        url: "https://example.com/resources"
+        title: "Humanizeai.pro",
+        description: "Humanise your ai like a pro!",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/humanise.png?raw=true",
+        url: "https://www.humanizeai.pro/"
     }
 ]; 
