@@ -255,7 +255,7 @@ const games = [
   {
     title: "Rocket Soccer Derby",
     description: "Web Rocket League!",
-    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/cactus2.png?raw=true",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/rocketsoccer.png?raw=true",
     url: "https://rocket-soccer-derby.github.io/file/",
     category: "Adventure"
   }
