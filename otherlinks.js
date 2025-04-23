@@ -1,9 +1,9 @@
 const otherLinks = [
     {
-        title: "Graduation Info",
-        description: "Important information about graduation ceremonies and requirements",
-        image: "https://example.com/graduation-info.jpg",
-        url: "https://example.com/graduation-info"
+        title: "ChatGPT",
+        description: "Talk with a smart robot",
+        image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/chatgpt.png?raw=true",
+        url: "https://chatgpt.com"
     },
     {
         title: "Class Schedule",
