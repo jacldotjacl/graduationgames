@@ -9,7 +9,7 @@ const otherLinks = [
         title: "Doge Proxy",
         description: "Unblock Sites!",
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/doge.png?raw=true",
-        url: "v4fork-beta.vercel.app"
+        url: "https://v4fork-beta.vercel.app/"
     },
     {
         title: "Suggest Games!",
