@@ -363,5 +363,12 @@ const games = [
     image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/driftboss.png?raw=true",
     url: "https://driftbossonline.github.io/file/",
     category: "Driving"
-  }
+  },
+  {
+      title: "Idle Breakout",
+      description: "Break bricks, upgrade balls.",
+      image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/idlebreakout.png?raw=true",
+      url: "https://buckyz.github.io/IdleBreakout/",
+      category: "Idle"
+  }    
 ];
