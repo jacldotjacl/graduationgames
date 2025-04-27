@@ -342,5 +342,26 @@ const games = [
     image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/drifthunters.png?raw=true",
     url: "https://drift-hunters-2.github.io/class911/drift-hunters/",
     category: "Racing"
+  },
+  {
+    title: "Drive Mad",
+    description: "Drive crazy, avoid crashes.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/drivemad.png?raw=true",
+    url: "https://monstertracks.github.io/go/class-401.html",
+    category: "Driving"
+  },
+  {
+    title: "Monster Tracks",
+    description: "Climb hills, survive falls.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/monstertracks.png?raw=true",
+    url: "https://monstertracks.github.io/file/",
+    category: "Driving"
+  },
+  {
+    title: "Drift Boss",
+    description: "Click to drift corners.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/driftboss.png?raw=true",
+    url: "https://driftbossonline.github.io/file/",
+    category: "Driving"
   }
 ];
