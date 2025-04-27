@@ -347,7 +347,7 @@ const games = [
     title: "Drive Mad",
     description: "Drive crazy, avoid crashes.",
     image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/drivemad.png?raw=true",
-    url: "https://monstertracks.github.io/go/class-401.html",
+    url: "https://physicsedu16.github.io/g20/class-401/",
     category: "Driving"
   },
   {
