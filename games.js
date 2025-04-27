@@ -258,5 +258,89 @@ const games = [
     image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/rocketsoccer.png?raw=true",
     url: "https://rocket-soccer-derby.github.io/file/",
     category: "Adventure"
+  },
+  {
+    title: "Bob the Robber 1",
+    description: "Steal stuff, avoid guards.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/bobtherobber1.png?raw=true",
+    url: "https://bobtherobber.io/1.embed",
+    category: "Stealth"
+  },
+  {
+    title: "Bob the Robber 2",
+    description: "Sneak past security systems.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/bobtherobber2.png?raw=true",
+    url: "https://mdtowerz.github.io/bob-the-robber/",
+    category: "Stealth"
+  },
+  {
+    title: "Bob the Robber 3",
+    description: "New missions, tougher heists.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/bobtherobber3.png?raw=true",
+    url: "https://html5.gamedistribution.com/16eb5eb6f9b841688478eb635fde78b5/?gd_sdk_referrer_url=https%3A%2F%2Fbobtherobber.io%2Fbob-the-robber-3&rd=1",
+    category: "Stealth"
+  },
+  {
+    title: "Bob the Robber 4",
+    description: "Steal worldwide treasures fast.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/bobtherobber4.png?raw=true",
+    url: "https://bob-the-robber.gitlab.io/file/",
+    category: "Stealth"
+  },
+  {
+    title: "Bloons TD 1",
+    description: "Pop bloons, place monkeys.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/btd1.png?raw=true",
+    url: "https://23-azo.github.io/a7/bloons-tower-defense-1/",
+    category: "Tower Defense"
+  },
+  {
+    title: "Bloons TD 2",
+    description: "More tracks, more bloons.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/btd2.png?raw=true",
+    url: "https://reider71164.github.io/btd2",
+    category: "Tower Defense"
+  },
+  {
+    title: "Bloons TD 3",
+    description: "Advanced towers, harder waves.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/btd3.png?raw=true",
+    url: "https://ubg89.github.io/BloonsTowerDefense3/",
+    category: "Tower Defense"
+  },
+  {
+    title: "Bloons TD 4",
+    description: "Epic bloon popping battles.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/btd4.png?raw=true",
+    url: "https://ubg89.github.io/BloonsTowerDefense4/",
+    category: "Tower Defense"
+  },
+  {
+    title: "Bloons TD 5",
+    description: "Upgrade towers, pop more.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/btd5.png?raw=true",
+    url: "https://reider71164.github.io/btd5/",
+    category: "Tower Defense"
+  },
+  {
+    title: "Google Snake",
+    description: "Eat food, grow longer.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/googlesnake.png?raw=true",
+    url: "https://sudoku-online.github.io/a8/google-snake/",
+    category: "Arcade"
+  },
+  {
+    title: "Space Waves",
+    description: "Defend against alien waves.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/spacewaves.png?raw=true",
+    url: "https://igroutka.ru/loader/game/51356/",
+    category: "Shooter"
+  },
+  {
+    title: "Drift Hunters",
+    description: "Drift cars, earn cash.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/drifthunters.png?raw=true",
+    url: "https://drift-hunters-2.github.io/class911/drift-hunters/",
+    category: "Racing"
   }
 ];
