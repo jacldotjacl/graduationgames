@@ -496,5 +496,12 @@ const games = [
   image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/bloxorz.png?raw=true",
   url: "https://ubg89.github.io/Bloxorz/",
   category: "Puzzle"
+},
+{
+  title: "Buckshot Roulette (Blocked)",
+  description: "Spin, aim, survive shots.",
+  image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/buckshotroulette.png?raw=true",
+  url: "https://buckshotroulette.online/steam/",
+  category: "Horror"
 }
 ];
