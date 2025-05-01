@@ -426,5 +426,12 @@ const games = [
     image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/motox3mspooky.png?raw=true",
     url: "https://labgstore1812.github.io/g5/class-461/",
     category: "Racing"
-  }
+  },
+{
+  title: "Stickman Hook",
+  description: "Swing fast, stick hard.",
+  image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/stickmanhook.png?raw=true",
+  url: "https://stickmanhook.gitlab.io/file/",
+  category: "Arcade"
+}
 ];
