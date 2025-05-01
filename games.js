@@ -487,7 +487,7 @@ const games = [
   title: "Paper.io 2",
   description: "Claim land, dodge death.",
   image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/paperio2.png?raw=true",
-  url: "https://paperio-2.github.io/a9/paperio2.png/",
+  url: "https://paperio-2.github.io/a9/paper-io-2/",
   category: "Arcade"
 }
 ];
