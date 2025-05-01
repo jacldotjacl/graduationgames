@@ -375,7 +375,21 @@ const games = [
       title: "Snow Rider 3D",
       description: "Slide down the hill!",
       image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/snowrider.png?raw=true",
-      url: "https://snow-rider3d.github.io/file//",
+      url: "https://snow-rider3d.github.io/file/",
       category: "Action"
+  },
+  {
+      title: "Tomb of the Mask",
+      description: "Escape the tomb!",
+      image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/tombofthemask.png?raw=true",
+      url: "https://tombofthemask.gitlab.io/file/",
+      category: "Arcade"
+  },
+  {
+      title: "Minecraft 1.8.8",
+      description: "Mine and Craft",
+      image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/minecraft188.png?raw=true",
+      url: "https://kalibara4.github.io/eagler/1.8.8//",
+      category: "Casual"
   }    
 ];
