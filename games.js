@@ -433,5 +433,47 @@ const games = [
   image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/stickmanhook.png?raw=true",
   url: "https://stickmanhook.gitlab.io/file/",
   category: "Arcade"
-}
+},
+  {
+    title: "Fireboy & Watergirl",
+    description: "Solve with fire and water.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/fireboy1.png?raw=true",
+    url: "https://fireboy-and-watergirl-online.github.io/g177/class-346/",
+    category: "Puzzle"
+  },
+  {
+    title: "Fireboy & Watergirl 2",
+    description: "Temple teamwork returns again.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/fireboy2.png?raw=true",
+    url: "https://fireboy-and-watergirl-online.github.io/g177/class-345/",
+    category: "Puzzle"
+  },
+  {
+    title: "Fireboy & Watergirl 3",
+    description: "New levels, same chaos.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/fireboy3.png?raw=true",
+    url: "https://fireboy-and-watergirl-online.github.io/g177/class-344/",
+    category: "Puzzle"
+  },
+  {
+    title: "Fireboy & Watergirl 4",
+    description: "Co-op challenges get tougher.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/fireboy4.png?raw=true",
+    url: "https://fireboy-and-watergirl-online.github.io/g177/class-343/",
+    category: "Puzzle"
+  },
+  {
+    title: "Fireboy & Watergirl 5",
+    description: "Use both, beat puzzles.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/fireboy5.png?raw=true",
+    url: "https://fireboy-and-watergirl-online.github.io/g177/class-342/",
+    category: "Puzzle"
+  },
+  {
+    title: "Fireboy & Watergirl 6",
+    description: "More temples, trickier paths.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/fireboy6.png?raw=true",
+    url: "https://fireboy-and-watergirl-online.github.io/g177/class-341/",
+    category: "Puzzle"
+  }
 ];
