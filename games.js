@@ -482,5 +482,12 @@ const games = [
   image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/basketballstars.png?raw=true",
   url: "https://dreadhead-parkouronline.github.io/g5/class-449/",
   category: "Sports"
+},
+{
+  title: "Paper.io 2",
+  description: "Claim land, dodge death.",
+  image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/paperio2.png?raw=true",
+  url: "https://paperio-2.github.io/a9/paperio2.png/",
+  category: "Arcade"
 }
 ];
