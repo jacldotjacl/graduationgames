@@ -370,5 +370,12 @@ const games = [
       image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/idlebreakout.png?raw=true",
       url: "https://buckyz.github.io/IdleBreakout/",
       category: "Idle"
+  },
+  {
+      title: "Snow Rider 3D",
+      description: "Slide down the hill!",
+      image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/snowrider.png?raw=true",
+      url: "https://snow-rider3d.github.io/file//",
+      category: "Action"
   }    
 ];
