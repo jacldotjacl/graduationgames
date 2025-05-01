@@ -489,5 +489,12 @@ const games = [
   image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/paperio2.png?raw=true",
   url: "https://paperio-2.github.io/a9/paper-io-2/",
   category: "Arcade"
+},
+{
+  title: "Bloxorz",
+  description: "Roll smart, don’t fall.",
+  image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/bloxorz.png?raw=true",
+  url: "https://ubg89.github.io/Bloxorz/",
+  category: "Puzzle"
 }
 ];
