@@ -475,5 +475,12 @@ const games = [
     image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/fireboy6.png?raw=true",
     url: "https://fireboy-and-watergirl-online.github.io/g177/class-341/",
     category: "Puzzle"
-  }
+  },
+{
+  title: "Basketball Stars",
+  description: "Dunk hard, steal fast.",
+  image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/basketballstars.png?raw=true",
+  url: "https://dreadhead-parkouronline.github.io/g5/class-449/",
+  category: "Sports"
+}
 ];
