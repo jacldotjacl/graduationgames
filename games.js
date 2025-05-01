@@ -391,5 +391,40 @@ const games = [
       image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/minecraft188.png?raw=true",
       url: "https://kalibara4.github.io/eagler/1.8.8//",
       category: "Casual"
-  }    
+  },
+  {
+    title: "Moto X3M",
+    description: "Race, flip, dodge traps.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/motox3m.png?raw=true",
+    url: "https://dreadhead-parkouronline.github.io/g26/class-458/",
+    category: "Racing"
+  },
+  {
+    title: "Moto X3M 2",
+    description: "More tracks, more flips.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/motox3m2.png?raw=true",
+    url: "https://motox3munblocked.github.io/2/",
+    category: "Racing"
+  },
+  {
+    title: "Moto X3M Winter",
+    description: "Snowy flips, wild rides.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/motox3mwinter.png?raw=true",
+    url: "https://labgstore1812.github.io/g5/class-460/",
+    category: "Racing"
+  },
+  {
+    title: "Moto X3M Pool Party",
+    description: "Wet ramps, insane jumps.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/motox3mpool.png?raw=true",
+    url: "https://labgstore1812.github.io/g5/class-462/",
+    category: "Racing"
+  },
+  {
+    title: "Moto X3M Spooky",
+    description: "Ghost tracks, creepy stunts.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/motox3mspooky.png?raw=true",
+    url: "https://labgstore1812.github.io/g5/class-461/",
+    category: "Racing"
+  }
 ];
