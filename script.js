@@ -21,14 +21,36 @@ categories.forEach(category => {
 function createGameCard(game) {
     const card = document.createElement('div');
     card.className = 'game-card';
+    
+    // Create image element with error handling
+    const img = document.createElement('img');
+    img.alt = game.title;
+    
+    // Set up image loading with error handling
+    img.onerror = function() {
+        // If image fails to load, try loading from raw.githubusercontent.com
+        if (!this.src.includes('raw.githubusercontent.com')) {
+            const rawUrl = game.image.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
+            this.src = rawUrl;
+        } else {
+            // If both attempts fail, use a fallback image
+            this.src = 'https://raw.githubusercontent.com/jacldotjacl/graduationgames/main/webfiles/fallback.png';
+        }
+    };
+    
+    // Set initial image source
+    img.src = game.image;
+    
     card.innerHTML = `
-        <img src="${game.image}" alt="${game.title}">
         <div class="game-info">
             <h3>${game.title}</h3>
             <p>${game.description}</p>
             <span class="game-category">${game.category}</span>
         </div>
     `;
+    
+    // Insert image at the beginning
+    card.insertBefore(img, card.firstChild);
     
     card.addEventListener('click', () => {
         openGame(game.url);
@@ -104,7 +126,8 @@ function displayGames(gamesToShow = games) {
     counter.textContent = `${gamesToShow.length} games`;
     
     gamesToShow.forEach(game => {
-        container.appendChild(createGameCard(game));
+        const gameCard = createGameCard(game);
+        container.appendChild(gameCard);
     });
 }
 
@@ -227,23 +250,53 @@ function addToRecentlyPlayed(game) {
     displayRecentlyPlayed();
 }
 
-// Display recently played games
+// Function to create recent game cards
+function createRecentGameCard(game) {
+    const card = document.createElement('div');
+    card.className = 'recent-game-card';
+    
+    // Create image element with error handling
+    const img = document.createElement('img');
+    img.alt = game.title;
+    
+    // Set up image loading with error handling
+    img.onerror = function() {
+        // If image fails to load, try loading from raw.githubusercontent.com
+        if (!this.src.includes('raw.githubusercontent.com')) {
+            const rawUrl = game.image.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
+            this.src = rawUrl;
+        } else {
+            // If both attempts fail, use a fallback image
+            this.src = 'https://raw.githubusercontent.com/jacldotjacl/graduationgames/main/webfiles/fallback.png';
+        }
+    };
+    
+    // Set initial image source
+    img.src = game.image;
+    
+    card.innerHTML = `
+        <div class="recent-game-info">
+            <h3>${game.title}</h3>
+            <p>${game.description}</p>
+        </div>
+    `;
+    
+    // Insert image at the beginning
+    card.insertBefore(img, card.firstChild);
+    
+    card.addEventListener('click', () => {
+        openGame(game.url);
+        recentlyPlayedPanel.classList.remove('active');
+    });
+    
+    return card;
+}
+
+// Update displayRecentlyPlayed function
 function displayRecentlyPlayed() {
     recentGamesContainer.innerHTML = '';
     recentlyPlayed.forEach(game => {
-        const gameCard = document.createElement('div');
-        gameCard.className = 'recent-game-card';
-        gameCard.innerHTML = `
-            <img src="${game.image}" alt="${game.title}">
-            <div class="recent-game-info">
-                <h3>${game.title}</h3>
-                <p>${game.description}</p>
-            </div>
-        `;
-        gameCard.addEventListener('click', () => {
-            openGame(game.url);
-            recentlyPlayedPanel.classList.remove('active');
-        });
+        const gameCard = createRecentGameCard(game);
         recentGamesContainer.appendChild(gameCard);
     });
 }
