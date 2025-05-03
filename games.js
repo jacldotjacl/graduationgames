@@ -503,5 +503,61 @@ const games = [
   image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/buckshotroulette.png?raw=true",
   url: "https://buckshotroulette.online/steam/",
   category: "Horror"
-}
+},
+  {
+    title: "Basket Random",
+    description: "Jump high, shoot wild.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/basketrandom.png?raw=true",
+    url: "https://basket-random-game.github.io/file/",
+    category: "Sports"
+  },
+  {
+    title: "Soccer Random",
+    description: "Kick weird, win big.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/soccerrandom.png?raw=true",
+    url: "https://math181124.github.io/g26/class-511/",
+    category: "Sports"
+  },
+  {
+    title: "Volley Random",
+    description: "Smash goofy, spike fun.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/volleyrandom.png?raw=true",
+    url: "https://bolaa1.github.io/file/",
+    category: "Sports"
+  },
+  {
+    title: "Boxing Random",
+    description: "Punch silly, win hard.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/boxingrandom.png?raw=true",
+    url: "https://abinbins.github.io/a77/boxing-random/",
+    category: "Sports"
+  },
+  {
+    title: "Subway Surfers",
+    description: "Dash quick, dodge trains.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/subwaysurfers.png?raw=true",
+    url: "https://abinbins.github.io/a8/subway-surfers-san-francisco/",
+    category: "Runner"
+  },
+  {
+    title: "Tetris Flash",
+    description: "Stack blocks, clear lines.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/tetrisflash.png?raw=true",
+    url: "https://abinbins.github.io/a7/tetris-flash/",
+    category: "Arcade"
+  },
+  {
+    title: "Tiny Fishing",
+    description: "Drop fast, catch deep.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/tinyfishing.png?raw=true",
+    url: "https://topvaz2.github.io/source/class-451/",
+    category: "Idle"
+  },
+  {
+    title: "Basket & Ball",
+    description: "Bounce smart, dunk smooth.",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/basketandball.png?raw=true",
+    url: "https://top-vaz-online.github.io/source/class-597/",
+    category: "Puzzle"
+  }
 ];
