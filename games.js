@@ -18,7 +18,7 @@ const games = [
         title: "Monkey Mart",
         description: "Classic Monkey Money Game",
         image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/monkeymart.png?raw=true",
-        url: "https://hushygames.github.io/games/monkeymart/game.html",
+        url: "https://logicard.github.io/monk/file/",
         category: "Simulation"
     },
     {
