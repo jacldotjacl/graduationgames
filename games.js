@@ -559,5 +559,12 @@ const games = [
     image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/basketandball.png?raw=true",
     url: "https://top-vaz-online.github.io/source/class-597/",
     category: "Puzzle"
+  },
+  {
+    title: "Hungry Jacks Game",
+    description: "Download the mobile app!",
+    image: "https://github.com/jacldotjacl/graduationgames/blob/main/gameicons/hungryjacks.png?raw=true",
+    url: "https://games.hungryjacks.com.au/?uid=263b75f6-64db-402e-abb7-aa9ee43d4524/",
+    category: "Arcade"
   }
 ];
